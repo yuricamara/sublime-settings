@@ -1,0 +1,46 @@
+
+
+// Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
+{
+	// Disables PyV8 auto-update. Useful for users who installed PyV8
+	// manually from https://github.com/emmetio/pyv8-binaries because
+	// of local proxy restrictions
+	// "disable_pyv8_update": true,
+
+	// Use old Tab handler to expand abbreviations.
+	// With this option enabled, editor may better handle Tab key
+	// (especially with other plugins that overrides Tab key),
+	// but will spit "slow plugin" message
+	"use_old_tab_handler": true,
+
+	//Snippets
+	"snippets": {
+		"variables":{
+			"lang": "pt-BR",
+			"locale" : "pt-BR"
+		},
+
+		"css": {
+			"filters": "html",
+				"snippets": {
+					"bg+": "background:${1:transparent} url(${2}) ${3:0} ${4:0} ${5:no-repeat};",
+					"wza": "width:0 auto;"
+				}
+			}
+	},
+
+// Emmet preferences
+// List of all available preferences:
+// http://docs.emmet.io/customization/preferences/
+
+	"preferences": {
+
+	},
+
+// Output profiles for syntaxes
+// http://docs.emmet.io/customization/syntax-profiles/
+	"syntaxProfiles": {
+		// Enable XHTML dialect for HTML syntax
+		// "html": "xhtml"
+	}
+}
