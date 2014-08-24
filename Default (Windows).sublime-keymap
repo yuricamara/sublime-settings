@@ -1,0 +1,58 @@
+[
+	/** Edit */
+	//Line
+	{ "keys": ["ctrl+shift+-"], "command": "unindent" },
+	{ "keys": ["ctrl+shift+="], "command": "indent" },
+
+	//Code Folding
+	{ "keys": ["ctrl+k","ctrl+down"], "command": "unfold" },
+	{ "keys": ["alt+shift+a"], "command": "fold_tag_attributes" },
+
+	//Text
+	{ "keys": ["ctrl+shift+t"], "command": "transpose" },
+
+	// Selecionar linhas
+    { "keys": ["ctrl+shift+,"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+shift+."],"command": "select_lines", "args": {"forward": true} },
+
+	//Convert Case
+	{ "keys": ["ctrl+k", "ctrl+c"], "command": "title_case" },
+	{ "keys": ["ctrl+k", "ctrl+s"], "command": "swap_case" },
+
+	//Arquivos Abertos
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+	//Adicionar snippets
+	{ "keys": ["alt+d"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
+
+	/*Goto*/
+	//Bookmark
+	{ "keys": ["ctrl+k", "ctrl+f2"], "command": "next_bookmark" },
+
+	/**Plugins*/
+	//Side Bar
+	{ "keys": ["ctrl+k", "ctrl+f"],
+	  "command": "side_bar_open_in_browser" ,
+    	"args":{"paths":[], "type":"testing"}
+  	},
+
+  	//BracketHighlighter
+    {
+        "keys": ["ctrl+k","ctrl+up"],
+        "command": "bh_key",
+        "args":
+        {
+            "plugin": {
+                "type": ["__all__"],
+                "command" : "bh_modules.foldbracket"
+            }
+        } // Fold contents between brackets
+    },
+
+    //Markdown Preview
+    {
+    	"keys": ["ctrl+shift+m"],
+    	"command": "markdown_preview",
+    	"args": {"target": "browser", "parser":"github"}
+    }
+]
