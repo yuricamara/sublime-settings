@@ -1,0 +1,75 @@
+{
+	// Define region highlight styles
+	"bracket_styles": {
+	    // "default" and "unmatched" styles are special
+	    // styles. If they are not defined here,
+	    // they will be generated internally with
+	    // internal defaults.
+
+	    // "default" style defines attributes that
+	    // will be used for any style that does not
+	    // explicitly define that attribute.  So if
+	    // a style does not define a color, it will
+	    // use the color from the "default" style.
+	    "default": {
+	        "icon": "dot",
+	        "color": "entity.name.class",
+	        "style": "underline"
+	    },
+
+	    // This particular style is used to highlight
+	    // unmatched bracekt pairs.  It is a special
+	    // style.
+	    "unmatched": {
+	        "icon": "question",
+	        // "color": "brackethighlighter.unmatched",
+	        "style": "outline"
+	    },
+	    // User defined region styles
+	    "curly": {
+	        "icon": "curly_bracket"
+	        // "color": "brackethighlighter.curly",
+	        // "style": "underline"
+	    },
+	    "round": {
+	        "icon": "round_bracket"
+	        // "color": "brackethighlighter.round",
+	        // "style": "underline"
+	    },
+	    "square": {
+	        "icon": "square_bracket"
+	        // "color": "brackethighlighter.square",
+	        // "style": "underline"
+	    },
+	    "angle": {
+	        "icon": "angle_bracket"
+	        // "color": "brackethighlighter.angle",
+	        // "style": "underline"
+	    },
+	    "tag": {
+	        "icon": "tag",
+	        "color": "brackethighlighter.tag"
+	        //"style": "outline"
+	    },
+	    "single_quote": {
+	        "icon": "single_quote",
+	        "color": "entity.name.tag"
+	        // "style": "underline"
+	    },
+	    "double_quote": {
+	        "icon": "double_quote",
+	        "color": "variable.parameter"
+	        // "style": "underline"
+	    },
+	    "regex": {
+	        "icon": "regex"
+	        // "color": "brackethighlighter.quote",
+	        // "style": "underline"
+	    }
+	},
+    //Debug logging
+    "debug_enable": true,
+    // When only either the left or right bracket can be found
+    // this defines if the unmatched bracket should be shown.
+    "show_unmatched" : false
+}

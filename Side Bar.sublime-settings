@@ -1,0 +1,8 @@
+{
+	"default_browser": "chrome",
+	"statusbar_modified_time": true,
+	"statusbar_modified_time_format": "%A, %d %b %Y. %H:%M:%S",
+	"statusbar_file_size": true,
+	"disabled_menuitem_copy_dir_path": false,
+	"version": "setting no longer updated"
+}

@@ -1,0 +1,42 @@
+{
+	"auto_complete_delay": 300,
+	"bold_folder_labels": true,
+	"caret_style": "blink",
+	"color_scheme": "Packages/User/Monokai Extended Bright (SL).tmTheme",
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": 0,
+	"preview_on_click": false,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_completion": false,
+	"trim_trailing_white_space_on_save": true
+}
