@@ -1,7 +1,7 @@
 Sublime Text Settings
 ====================
 
-Packages, configurações e snippets.
+Packages, configurações, snippets e temas.
 Sublime usado majoritariamente para **desenvolvimento front-end**.
 
 Como utilizar
