@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"AngularJS",
+		"AutoFileName",
+		"BracketHighlighter",
+		"BufferScroll",
+		"ColorPicker",
+		"Emmet",
+		"FileDiffs",
+		"FindKeyConflicts",
+		"JavaScript Snippets",
+		"LiveStyle",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Monokai Extended",
+		"MultiEditUtils",
+		"Origami",
+		"Pretty JSON",
+		"Sass",
+		"SideBarEnhancements",
+		"StringEncode",
+		"SublimeHighlight",
+		"SublimeLinter",
+		"SublimeLinter-jshint"
+	],
+	"repositories":
+	[
+		"https://github.com/n1k0/SublimeHighlight/tree/python3"
+	]
+}
