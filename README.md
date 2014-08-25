@@ -1,17 +1,31 @@
 Sublime Text Settings
 ====================
 
-Packages, configurações, snippets e temas.
+Packages, configurações, snippets e temas da minha pasta user do Sublime. Os arquivos contidos nesta pasta são os que adicionam novas configurações e recursos ao editor.
+
 Sublime usado majoritariamente para **desenvolvimento front-end**.
 
 Como utilizar
 -------------
-Você deverá inicialmente ter o [Sublime Text 3][1] com o [package control][2] instalado na sua máquina.
+Você deverá ter o [Sublime Text 3][1] com o [package control][2] instalado na sua máquina.
 
-A melhor prática para usar os arquivos deste repo é usando o recurso de [sincronia do Sublime com outras máquinas][3]. Depois de fazer esta sincronia coloque esses arquivos no diretório /Sublime/User. Desta forma você poderá usá-lo em qualquer computador que tenha esta sincronização além de ficar com um backup online deles. E claro, modifique-os de acordo com as suas preferências.
+Coloque os arquivos desejados deste repo na pastar user do Sublime. Segue o diretório desta pasta em cada SO.
 
+**Linux**
+cd ~/.config/sublime-text-3/Packages/User
 
-**Observação**: uso o Sublime no Windows. O arquivo Default (Windows).sublime-keymap deve ser adaptado para o seu SO.
+**OSX**
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+**Windows**
+%appdata%\Sublime Text 3\Packages\User
+
+Sincronização
+-----------
+
+É possível sincronizar a pasta user com outras máquinas usando o recurso de [sincronia do Sublime com outras máquinas][3].  
+
+**Observação**: Sublime usado no Windows. O arquivo Default (Windows).sublime-keymap deve ser adaptado para o seu SO.
 
 *Repo criado por Yuri Câmara* ( [yuricamara.com.br][4] / [@ycamara][5])
 
